@@ -95,7 +95,7 @@ def HlsJobCreation(key):
     # }
     job_outputs = [hls_400k, hls_600k]
 
-    # Setup master playlist which can be used to play using adaptive bitrate.
+    # Setup main playlist which can be used to play using adaptive bitrate.
     playlist = {
         'Name': 'hls_' + output_key,
         'Format': 'HLSv3',
